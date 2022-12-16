@@ -6,8 +6,8 @@ BEGIN
   BarID:=59422;
   Bars:=6;
   Bar[0]:=0;
-  Bar[1]:=59415;
-  Bar[2]:=59414;
+  Bar[1]:=59414;
+  Bar[2]:=59415;
   Bar[3]:=59416;
   Bar[4]:=59412;
   Bar[5]:=0;
@@ -54,16 +54,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 157 185";
+  MRUDockPos:="1 5 -2 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="102295";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="156 180";
+  MRUHorzDock:="-3 0";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,19 +75,19 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="163 5";
+  Pos:="4 5";
   Docking:=1;
-  MRUDockID:=59422;
-  MRUDockPos:="163 5 1536 185";
+  MRUDockID:=0;
+  MRUDockPos:="4 5 0 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="897704";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1373 180";
+  MRUHorzDock:="-4 0";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -103,16 +103,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 766 185";
+  MRUDockPos:="1 5 710 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1282894";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="975 180";
+  MRUHorzDock:="709 0";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,7 +127,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 253 425";
+  MRUDockPos:="0 -2 300 0";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -136,8 +136,8 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 180";
-  MRUVertDock:="253 427";
+  MRUHorzDock:="300 0";
+  MRUVertDock:="300 2";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -149,19 +149,19 @@ BEGIN
  BEGIN
   BarID:=59415;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="0 0";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 763 185";
+  MRUDockPos:="0 0 0 0";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="500000";
+  PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="762 180";
+  MRUHorzDock:="300 0";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -171,7 +171,7 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="1536 864";
+ Screen:="1920 1080";
 END;
 ProjectTree:=
 BEGIN
@@ -181,7 +181,7 @@ BEGIN
  Item[3]:=22;
  ItemCount:=4;
  Sumcheck:=62;
- Selected:=27;
+ Selected:=26;
 END;
 Frame[0]:=
 BEGIN
@@ -214,21 +214,6 @@ BEGIN
 END;
 Frame[2]:=
 BEGIN
- Norm:="0026 0026 1173 0321";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.MODBUS!MODBUS";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
  Norm:="0130 0130 1277 0425";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS!MODBUS.Symbols";
@@ -255,18 +240,76 @@ BEGIN
   nViews:=1;
  END;
 END;
+Frame[3]:=
+BEGIN
+ Norm:="0078 0078 1225 0373";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.RESET_States!RESET_States";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
 Frame[4]:=
+BEGIN
+ Norm:="0130 0130 1277 0425";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Feeder_MultiOrder!Feeder_MultiOrder";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=8;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0078 0078 1225 0373";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Feeder_Main!Feeder_Main";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
 BEGIN
  Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
- Path:="D:\WORK CIS_Personal\Robot Mie PLC\NewProgram Tafarrel 3 Order.cxp";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Order_Settings!Order_Settings";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[7]:=
+BEGIN
+ Norm:="0052 0052 1199 0347";
+ Min:="-001 -001";
+ Path:="E:\RobotCookingPLC\NewProgram Tafarrel 3 Order.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=104;
+   Yscroll:=100;
    Mag:=1;
    Extra:=
    BEGIN
@@ -286,60 +329,17 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
-BEGIN
- Norm:="0130 0130 1277 0425";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Feeder_MultiOrder!Feeder_MultiOrder";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0078 0078 1225 0373";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.RESET_States!RESET_States";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[7]:=
-BEGIN
- Norm:="0052 0052 1199 0347";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Order_Settings!Order_Settings";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
 Frame[8]:=
 BEGIN
  Max:=true;
- Norm:="0078 0078 1225 0373";
+ Norm:="0026 0026 1173 0321";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Feeder_Main!Feeder_Main";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.MODBUS!MODBUS";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=8;
   END;
   nViews:=1;
  END;
@@ -357,7 +357,7 @@ BEGIN
   ColumnWidth[3]:=60;
   ColumnWidth[4]:=60;
   ColumnWidth[5]:=60;
-  NumWatches:=10;
+  NumWatches:=19;
   Watch[0]:=
   BEGIN
    PLC:="NewPLC1";
@@ -431,6 +431,78 @@ BEGIN
    Type:=200;
   END;
   Watch[9]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="Start_Order";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[10]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.06";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[11]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.07";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[12]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.08";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[13]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.03";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[14]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.04";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[15]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.05";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[16]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.09";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[17]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.10";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[18]:=
   BEGIN
   END;
  END;
