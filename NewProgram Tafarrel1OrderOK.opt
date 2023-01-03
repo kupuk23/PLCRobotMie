@@ -54,7 +54,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 710 185";
+  MRUDockPos:="1 5 958 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="709 180";
+  MRUHorzDock:="957 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,10 +75,10 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="716 5";
+  Pos:="964 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="716 5 1424 185";
+  MRUDockPos:="964 5 1920 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -87,7 +87,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="708 180";
+  MRUHorzDock:="956 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,7 +127,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 374";
+  MRUDockPos:="0 -2 300 671";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -137,7 +137,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 376";
+  MRUVertDock:="300 673";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -180,7 +180,7 @@ BEGIN
  Item[2]:=21;
  Item[3]:=22;
  ItemCount:=4;
- Sumcheck:=61;
+ Sumcheck:=62;
  Selected:=27;
 END;
 Frame[0]:=
@@ -201,27 +201,13 @@ Frame[1]:=
 BEGIN
  Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
- Path:="E:\RobotCookingPLC\NewProgram Tafarrel1OrderOK.cxp";
- Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
- Type:=3;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS!MODBUS";
+ Type:=7;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
    Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-   END;
   END;
   nViews:=1;
  END;
@@ -256,49 +242,6 @@ BEGIN
 END;
 Frame[3]:=
 BEGIN
- Norm:="0052 0052 1199 0347";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS!MODBUS";
- Type:=7;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0130 0130 1277 0425";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Feeder_MultiOrder!Feeder_MultiOrder";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0000 0000 1147 0295";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Delay_Timer!Delay_Timer";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
  Norm:="0026 0026 1173 0321";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.MODBUS!MODBUS";
@@ -312,7 +255,81 @@ BEGIN
   nViews:=1;
  END;
 END;
+Frame[4]:=
+BEGIN
+ Norm:="0052 0052 1199 0347";
+ Min:="-001 -001";
+ Path:="E:\RobotCookingPLC\NewProgram Tafarrel1OrderOK.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=70;
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+    SortCol:=2;
+    SortAscending:=false;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0130 0130 1277 0425";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Feeder_MultiOrder!Feeder_MultiOrder";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0000 0000 1147 0295";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Delay_Timer!Delay_Timer";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
 Frame[7]:=
+BEGIN
+ Norm:="0000 0000 1406 0463";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.MODBUS.Sections.Mie_Dispenser!Mie_Dispenser";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[8]:=
 BEGIN
  Max:=true;
  Norm:="0078 0078 1225 0373";
@@ -323,11 +340,12 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=9;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=8;
+nFrames:=9;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
