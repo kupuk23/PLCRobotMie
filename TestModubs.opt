@@ -126,7 +126,7 @@ BEGIN
   BarID:=59413;
   Pos:="0 -2";
   Docking:=1;
-  MRUDockID:=0;
+  MRUDockID:=59420;
   MRUDockPos:="0 -2 300 671";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
@@ -177,12 +177,11 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=22;
- Item[3]:=23;
- Item[4]:=29;
- ItemCount:=5;
+ Item[2]:=21;
+ Item[3]:=22;
+ ItemCount:=4;
  Sumcheck:=58;
- Selected:=27;
+ Selected:=26;
 END;
 Frame[0]:=
 BEGIN
