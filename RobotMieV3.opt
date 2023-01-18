@@ -182,7 +182,7 @@ BEGIN
  Item[3]:=22;
  ItemCount:=4;
  Sumcheck:=66;
- Selected:=32;
+ Selected:=28;
 END;
 Frame[0]:=
 BEGIN
@@ -230,7 +230,7 @@ Frame[3]:=
 BEGIN
  Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
- Path:="E:\RobotCookingPLC\Tafarrel 3 OrdeStepNumrV2.cxp";
+ Path:="E:\RobotCookingPLC\RobotMieV3.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
@@ -259,21 +259,6 @@ BEGIN
 END;
 Frame[4]:=
 BEGIN
- Norm:="0052 0052 1458 0515";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Dispenser_Mie!Dispenser_Mie";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=7;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
  Norm:="0078 0078 1225 0373";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.RESET_States!RESET_States";
@@ -287,7 +272,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[5]:=
 BEGIN
  Norm:="0104 0104 1251 0399";
  Min:="-001 -001";
@@ -301,7 +286,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[7]:=
+Frame[6]:=
 BEGIN
  Norm:="0104 0104 1510 0567";
  Min:="-001 -001";
@@ -316,7 +301,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[8]:=
+Frame[7]:=
 BEGIN
  Norm:="0078 0078 1484 0541";
  Min:="-001 -001";
@@ -331,9 +316,8 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[9]:=
+Frame[8]:=
 BEGIN
- Max:=true;
  Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Order_Settings!Order_Settings";
@@ -343,6 +327,22 @@ BEGIN
   View[0]:=
   BEGIN
    Yscroll:=16;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0052 0052 1458 0515";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Dispenser_Mie!Dispenser_Mie";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=59;
   END;
   nViews:=1;
  END;
