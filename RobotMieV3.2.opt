@@ -201,20 +201,6 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
- Norm:="0026 0026 1511 0489";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.MODBUS!MODBUS";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
  Norm:="0078 0078 1225 0373";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.RESET_States!RESET_States";
@@ -227,7 +213,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[3]:=
+Frame[2]:=
 BEGIN
  Norm:="0104 0104 1251 0399";
  Min:="-001 -001";
@@ -241,7 +227,36 @@ BEGIN
   nViews:=1;
  END;
 END;
+Frame[3]:=
+BEGIN
+ Norm:="0078 0078 1484 0541";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Cooking_Process!Cooking_Process";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=2;
+  END;
+  nViews:=1;
+ END;
+END;
 Frame[4]:=
+BEGIN
+ Norm:="0052 0052 1199 0347";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Order_Settings!Order_Settings";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
 BEGIN
  Norm:="0078 0078 1225 0373";
  Min:="-001 -001";
@@ -255,7 +270,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
+Frame[6]:=
 BEGIN
  Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
@@ -266,7 +281,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=142;
+   Yscroll:=143;
    Mag:=1;
    Extra:=
    BEGIN
@@ -287,26 +302,11 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
-BEGIN
- Norm:="0078 0078 1484 0541";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Cooking_Process!Cooking_Process";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=2;
-  END;
-  nViews:=1;
- END;
-END;
 Frame[7]:=
 BEGIN
- Norm:="0052 0052 1199 0347";
+ Norm:="0026 0026 1511 0489";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Order_Settings!Order_Settings";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.MODBUS!MODBUS";
  Type:=1;
  Views:=
  BEGIN
@@ -326,7 +326,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=38;
+   Yscroll:=35;
   END;
   nViews:=1;
  END;
@@ -342,7 +342,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=10;
+   Yscroll:=52;
   END;
   nViews:=1;
  END;
@@ -612,7 +612,7 @@ BEGIN
   ColumnWidth[3]:=60;
   ColumnWidth[4]:=60;
   ColumnWidth[5]:=60;
-  NumWatches:=6;
+  NumWatches:=12;
   Watch[0]:=
   BEGIN
    PLC:="NewPLC1";
@@ -654,6 +654,54 @@ BEGIN
    Type:=0;
   END;
   Watch[5]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D130";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[6]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D131";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[7]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D132";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[8]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D133";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[9]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D134";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[10]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D135";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[11]:=
   BEGIN
   END;
  END;
