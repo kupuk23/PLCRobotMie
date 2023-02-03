@@ -201,16 +201,72 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
+ Norm:="0026 0026 1511 0489";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.MODBUS!MODBUS";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0078 0078 1225 0373";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.RESET_States!RESET_States";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
+BEGIN
+ Norm:="0104 0104 1251 0399";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Invert_Sensor!Invert_Sensor";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Norm:="0078 0078 1225 0373";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Main!Main";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
  Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
- Path:="E:\RobotCookingPLC\RobotMieV3.1.cxp";
+ Path:="E:\RobotCookingPLC\RobotMieV3.2.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=12;
+   Yscroll:=142;
    Mag:=1;
    Extra:=
    BEGIN
@@ -227,63 +283,6 @@ BEGIN
     SortCol:=2;
     SortAscending:=false;
    END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0026 0026 1511 0489";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.MODBUS!MODBUS";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0052 0052 1199 0347";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Order_Settings!Order_Settings";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=26;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0078 0078 1225 0373";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.RESET_States!RESET_States";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0104 0104 1251 0399";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Invert_Sensor!Invert_Sensor";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
   END;
   nViews:=1;
  END;
@@ -305,9 +304,9 @@ BEGIN
 END;
 Frame[7]:=
 BEGIN
- Norm:="0078 0078 1225 0373";
+ Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Main!Main";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Order_Settings!Order_Settings";
  Type:=1;
  Views:=
  BEGIN
@@ -327,7 +326,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=34;
+   Yscroll:=38;
   END;
   nViews:=1;
  END;
@@ -343,7 +342,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=35;
+   Yscroll:=10;
   END;
   nViews:=1;
  END;
@@ -667,7 +666,7 @@ BEGIN
   ColumnWidth[3]:=60;
   ColumnWidth[4]:=60;
   ColumnWidth[5]:=60;
-  NumWatches:=6;
+  NumWatches:=9;
   Watch[0]:=
   BEGIN
    PLC:="NewPLC1";
@@ -710,6 +709,30 @@ BEGIN
   END;
   Watch[5]:=
   BEGIN
+   PLC:="NewPLC1";
+   Reference:="100.05";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[6]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="100.06";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[7]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="100.07";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[8]:=
+  BEGIN
   END;
  END;
  Watches[4]:=
@@ -721,7 +744,7 @@ BEGIN
   ColumnWidth[3]:=60;
   ColumnWidth[4]:=10;
   ColumnWidth[5]:=60;
-  NumWatches:=15;
+  NumWatches:=14;
   Watch[0]:=
   BEGIN
    PLC:="NewPLC1";
@@ -733,7 +756,7 @@ BEGIN
   Watch[1]:=
   BEGIN
    PLC:="NewPLC1";
-   Reference:="D33";
+   Reference:="C7";
    TypeKnown:=true;
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=200;
@@ -741,20 +764,12 @@ BEGIN
   Watch[2]:=
   BEGIN
    PLC:="NewPLC1";
-   Reference:="D34";
+   Reference:="W3.00";
    TypeKnown:=true;
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
-   Type:=200;
+   Type:=0;
   END;
   Watch[3]:=
-  BEGIN
-   PLC:="NewPLC1";
-   Reference:="D35";
-   TypeKnown:=true;
-   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
-   Type:=200;
-  END;
-  Watch[4]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="D36";
@@ -762,7 +777,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=200;
   END;
-  Watch[5]:=
+  Watch[4]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.02";
@@ -770,7 +785,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[6]:=
+  Watch[5]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.00";
@@ -778,7 +793,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[7]:=
+  Watch[6]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.03";
@@ -786,7 +801,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[8]:=
+  Watch[7]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.04";
@@ -794,7 +809,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[9]:=
+  Watch[8]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.05";
@@ -802,7 +817,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[10]:=
+  Watch[9]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.06";
@@ -810,7 +825,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[11]:=
+  Watch[10]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.07";
@@ -818,7 +833,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[12]:=
+  Watch[11]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.08";
@@ -826,7 +841,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[13]:=
+  Watch[12]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="0.09";
@@ -834,7 +849,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[14]:=
+  Watch[13]:=
   BEGIN
   END;
  END;
