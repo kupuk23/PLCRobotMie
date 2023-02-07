@@ -51,19 +51,20 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
+  Visible:=0;
   Pos:="1 5";
   Docking:=1;
-  MRUDockID:=0;
-  MRUDockPos:="1 5 531 185";
+  MRUDockID:=59422;
+  MRUDockPos:="1 5 230 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="276917";
+  PctWidth:="120024";
   MRUFloat:="300 180";
-  MRUHorzDock:="530 180";
+  MRUHorzDock:="229 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,19 +76,19 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="537 5";
+  Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="537 5 1920 185";
+  MRUDockPos:="1 5 1920 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="723082";
+  PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1383 180";
+  MRUHorzDock:="1919 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -160,9 +161,9 @@ BEGIN
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="4096133";
+  PctWidth:="6514106";
   MRUFloat:="1624 679";
-  MRUHorzDock:="7840 180";
+  MRUHorzDock:="12468 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -181,25 +182,10 @@ BEGIN
  Item[2]:=21;
  Item[3]:=22;
  ItemCount:=4;
- Sumcheck:=66;
- Selected:=34;
+ Sumcheck:=65;
+ Selected:=32;
 END;
 Frame[0]:=
-BEGIN
- Norm:="0104 0104 1510 0567";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Dispenser_Cup!Dispenser_Cup";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=35;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
 BEGIN
  Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
@@ -210,7 +196,6 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=147;
    Mag:=1;
    Extra:=
    BEGIN
@@ -230,51 +215,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[2]:=
-BEGIN
- Norm:="0052 0052 1458 0515";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Dispenser_Mie!Dispenser_Mie";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=35;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0078 0078 1484 0541";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Cooking_Process!Cooking_Process";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=18;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0078 0078 1225 0373";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Main!Main";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
+Frame[1]:=
 BEGIN
  Norm:="0104 0104 1251 0399";
  Min:="-001 -001";
@@ -288,7 +229,21 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[2]:=
+BEGIN
+ Norm:="0052 0052 1537 0515";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.END!END";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
 BEGIN
  Norm:="0026 0026 1511 0489";
  Min:="-001 -001";
@@ -302,7 +257,65 @@ BEGIN
   nViews:=1;
  END;
 END;
+Frame[4]:=
+BEGIN
+ Norm:="0104 0104 1510 0567";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Dispenser_Cup!Dispenser_Cup";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=38;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0052 0052 1458 0515";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Dispenser_Mie!Dispenser_Mie";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=34;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0078 0078 1225 0373";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Main!Main";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
 Frame[7]:=
+BEGIN
+ Norm:="0078 0078 1484 0541";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Cooking_Process!Cooking_Process";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[8]:=
 BEGIN
  Norm:="0052 0052 1199 0347";
  Min:="-001 -001";
@@ -312,21 +325,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[8]:=
-BEGIN
- Norm:="0078 0078 1225 0373";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.RESET_States!RESET_States";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
+   Yscroll:=9;
   END;
   nViews:=1;
  END;
@@ -334,9 +333,9 @@ END;
 Frame[9]:=
 BEGIN
  Max:=true;
- Norm:="0026 0026 1511 0489";
+ Norm:="0078 0078 1225 0373";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.Garnish!Garnish";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.CookingMie.Sections.RESET_States!RESET_States";
  Type:=1;
  Views:=
  BEGIN
@@ -355,7 +354,7 @@ BEGIN
   SheetName:="sheet2";
   ColumnWidth[0]:=60;
   ColumnWidth[1]:=60;
-  ColumnWidth[2]:=60;
+  ColumnWidth[2]:=253;
   ColumnWidth[3]:=60;
   ColumnWidth[4]:=60;
   ColumnWidth[5]:=60;
@@ -421,7 +420,7 @@ BEGIN
   ColumnWidth[3]:=60;
   ColumnWidth[4]:=60;
   ColumnWidth[5]:=60;
-  NumWatches:=23;
+  NumWatches:=24;
   Watch[0]:=
   BEGIN
    PLC:="NewPLC1";
@@ -599,6 +598,14 @@ BEGIN
    Type:=0;
   END;
   Watch[22]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="W100.02";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[23]:=
   BEGIN
   END;
  END;
