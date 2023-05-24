@@ -54,17 +54,17 @@ BEGIN
   Visible:=0;
   Pos:="1 5";
   Docking:=1;
-  MRUDockID:=59422;
-  MRUDockPos:="1 5 215 185";
+  MRUDockID:=0;
+  MRUDockPos:="1 5 470 185";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="120024";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="214 220";
+  MRUHorzDock:="469 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -80,16 +80,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 1795 225";
+  MRUDockPos:="1 5 944 185";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1794 220";
+  MRUHorzDock:="943 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -102,19 +102,19 @@ BEGIN
  BEGIN
   BarID:=59416;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="1 6";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 710 185";
+  MRUDockPos:="1 6 470 186";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="647333";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1239 220";
+  MRUHorzDock:="469 146";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,10 +128,10 @@ BEGIN
   BarID:=59413;
   Pos:="0 -2";
   Docking:=1;
-  MRUDockID:=59420;
-  MRUDockPos:="0 -2 221 858";
+  MRUDockID:=0;
+  MRUDockPos:="0 -2 222 634";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-1 0";
   Style:=8084;
   ExStyle:=3889;
   PrevFloating:=0;
@@ -139,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="221 860";
+  MRUVertDock:="222 636";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -151,20 +151,19 @@ BEGIN
  BEGIN
   BarID:=59415;
   Visible:=0;
-  Pos:="1 5";
-  MRUWidth:=1624;
+  Pos:="0 0";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1277 185";
+  MRUDockPos:="0 0 0 0";
   MRUFloatStyle:=4;
-  MRUFloatPos:="298 132";
+  MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="6514101";
-  MRUFloat:="1624 679";
-  MRUHorzDock:="12468 220";
+  PctWidth:="3202511";
+  MRUFloat:="300 180";
+  MRUHorzDock:="4080 146";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -174,7 +173,7 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="1920 1080";
+ Screen:="1536 864";
 END;
 ProjectTree:=
 BEGIN
@@ -184,84 +183,11 @@ BEGIN
  Item[3]:=23;
  ItemCount:=4;
  Sumcheck:=65;
- Selected:=28;
+ Selected:=30;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0026 0026 1455 0620";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie!CookingMie";
- Type:=7;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0130 0130 1537 0702";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.MODBUS!MODBUS";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0104 0104 1511 0676";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Dispenser_Cup!Dispenser_Cup";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0156 0156 1563 0728";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Cooking_Process!Cooking_Process";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=4;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0078 0078 1485 0650";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Dispenser_Mie!Dispenser_Mie";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Max:=true;
- Norm:="0052 0052 1459 0624";
+ Norm:="0026 0026 1122 0448";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Main!Main";
  Type:=1;
@@ -273,7 +199,37 @@ BEGIN
   nViews:=1;
  END;
 END;
-nFrames:=6;
+Frame[1]:=
+BEGIN
+ Norm:="0052 0052 1152 0478";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Dispenser_Mie!Dispenser_Mie";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=28;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Max:=true;
+ Norm:="0078 0078 1178 0504";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Dispenser_Cup!Dispenser_Cup";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+nFrames:=3;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
