@@ -214,34 +214,6 @@ BEGIN
 END;
 Frame[2]:=
 BEGIN
- Norm:="0078 0078 1178 0504";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Cooking_Process!Cooking_Process";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0078 0078 1178 0504";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Dispenser_Cup!Dispenser_Cup";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
  Norm:="0130 0130 1308 0447";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.RESET_States!RESET_States";
@@ -254,7 +226,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
+Frame[3]:=
 BEGIN
  Norm:="0104 0104 1204 0530";
  Min:="-001 -001";
@@ -269,11 +241,39 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[4]:=
 BEGIN
  Norm:="0026 0026 1122 0448";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Main!Main";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0078 0078 1178 0504";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Cooking_Process!Cooking_Process";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0078 0078 1178 0504";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Dispenser_Cup!Dispenser_Cup";
  Type:=1;
  Views:=
  BEGIN
