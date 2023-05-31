@@ -51,6 +51,7 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
+  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
@@ -128,7 +129,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 222 447";
+  MRUDockPos:="0 -2 222 634";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=8084;
@@ -138,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="222 449";
+  MRUVertDock:="222 636";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -178,129 +179,11 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=21;
- Item[3]:=22;
- ItemCount:=4;
+ Item[2]:=22;
+ ItemCount:=3;
  Sumcheck:=65;
- Selected:=28;
+ Selected:=36;
 END;
-Frame[0]:=
-BEGIN
- Norm:="0026 0026 1204 0343";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.MODBUS!MODBUS";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0130 0130 1308 0447";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.RESET_States!RESET_States";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0000 0000 1178 0317";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Invert_Sensor!Invert_Sensor";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0078 0078 1178 0504";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Dispenser_Cup!Dispenser_Cup";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0078 0078 1178 0504";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Cooking_Process!Cooking_Process";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0104 0104 1204 0530";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Order_Settings!Order_Settings";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=30;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0026 0026 1122 0448";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Main!Main";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=2;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[7]:=
-BEGIN
- Max:=true;
- Norm:="0052 0052 1152 0478";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.FB source program.Programs.CookingMie.Sections.Dispenser_Mie!Dispenser_Mie";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=53;
-  END;
-  nViews:=1;
- END;
-END;
-nFrames:=8;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
